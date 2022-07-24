@@ -9,27 +9,6 @@ nav{
   font-size: 25px;
   letter-spacing: 3px;
 }
-.counter{
-  width: 350px;
-  height: 110px;
-  padding: 5px 0;
-  font-size: 25px;
-  background-color: #eee;
-}
-.counter span{
-  width: 75px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.btns span{
-  cursor: pointer;
-}
-#reset{
-  font-size: 22px;
-  background-color: #009688;
-}
 
 @media screen and (max-width:425px)
 {
@@ -43,15 +22,5 @@ nav{
     font-size: 18px;
     letter-spacing: 2px;
   }
-  .counter{
-    width: 200px;
-    height: 90px;
-  }
-  .counter span{
-    width: 50px;
-    height: 30px;
-  }
-  #reset, #count{
-    font-size: 17px;
-  }
+  
 }
